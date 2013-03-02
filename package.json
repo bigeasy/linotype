@@ -1,0 +1,21 @@
+{ "name": "linotype"
+, "description": "A template driven asynchronous CMS for Node.js."
+, "author": "Alan Gutierrez"
+, "version": "0.0.0"
+, "keywords": [ "template", "html", "xml", "text", "xhtml", "async", "asynchronous", "cms" ]
+, "licenses": [
+  { "type": "MIT"
+  , "url": "http://github.com/bigeasy/linotype/raw/master/LICENSE"
+  }]
+, "repository":
+  { "type": "git"
+  , "url": "http://github.com/bigeasy/linotype.git"
+  }
+, "scripts" : { "test": "proof platform win32 && proof t/*/*.t || t/test" }
+, "devDependencies":
+  { "proof": "0.0.17"
+  , "uglify-js": "~1.3"
+  }
+, "dependencies": { "stencil": "0.0.1",
+                    "relatable": "0.0.2" }
+}
